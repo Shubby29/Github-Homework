@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b71ee103-5947-4154-ad33-b3e51771f588" name="Changes" comment="Remove .idea/vcs.xml" />
+    <list default="true" id="b71ee103-5947-4154-ad33-b3e51771f588" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +25,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fec6f231-fdf5-4eaf-b5c4-df50174cdea5" />
+        <option name="url" value="https://github.com/Shubby29/Github-Homework" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -37,6 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-Execution": "External process execution failed",
+    "Notification.DoNotAsk-Execution": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "foundation--homework4",
@@ -47,9 +61,6 @@
     <configuration name="shop" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\shubb\venv\Scripts\python.exe" />
       <option name="SDK_NAME" value="Python 3.11 (venv)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -119,12 +130,58 @@
       <option name="project" value="LOCAL" />
       <updated>1688309580628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revert &quot;Remove .idea/vcs.xml&quot;&#10;&#10;This reverts commit fe168374">
+      <created>1688314316570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688314316570</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="foundation--homework4" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="foundation--homework4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove .idea/vcs.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove .idea/vcs.xml" />
+    <MESSAGE value="Revert &quot;Remove .idea/vcs.xml&quot;&#10;&#10;This reverts commit fe168374" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Remove .idea/vcs.xml&quot;&#10;&#10;This reverts commit fe168374" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
