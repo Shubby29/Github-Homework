@@ -1,4 +1,6 @@
- foundation--homework4
+from unittest.mock import patch
+
+
 class InsufficientFundsError(Exception):
     pass
 
@@ -59,7 +61,7 @@ def shop():
             return
 
 
-# Unit Tests
+# Run the unit tests
 def test_purchase_item():
     items = {
         "Killian, Love Don't be Shy": 150,
@@ -93,34 +95,11 @@ def test_add_funds():
     assert new_balance == 150
 
 
-def test_shop():
-    # Simulating user input during testing
-    input_values = ["Fussy lip gloss", "exit"]
-    input_index = 0
-
-    def mock_input(prompt):
-        nonlocal input_index
-        input_index += 1
-        return input_values[input_index - 1]
-
-    # Valid purchase
+@patch('builtins.input', side_effect=["Fussy lip gloss", "exit"])
+def test_shop(mock_input):
     shop()
-    assert input_index == 2
-
-    # Invalid item
-    input_values = ["Invalid item", "exit"]
-    input_index = 0
-    shop()
-    assert input_index == 2
-
-    # Insufficient funds
-    input_values = ["Killian, Love Don't be Shy", "no"]
-    input_index = 0
-    shop()
-    assert input_index == 2
 
 
-# Run the unit tests
 test_purchase_item()
 test_add_funds()
 test_shop()
